@@ -17,11 +17,11 @@ plugins {
 
 apply plugin: 'org.spongepowered.mixin'
 
-group = mod_group_id
-version = mod_name + "-" + mod_version
+group = mod_version
+version = mod_group_id
 
 base {
-    archivesName = version + "+" + minecraft_version
+    archivesName = mod_id
 }
 
 java {
